@@ -1,6 +1,3 @@
-#INCIDENTES
-
-
 import csv
 from datetime import datetime
 
@@ -14,6 +11,4 @@ def registrar_incidente(filename):
         writer.writerow([fecha_hora, descripcion, gravedad])
         print("Perfecto, el incidente ha sido registrado.")
 
-registrar_incidente('c:/Users/bumbl/OneDrive/Escritorio/Algoritmos/incidentes.csv')
-
-bjbjbj
+registrar_incidente('incidentes.csv')
