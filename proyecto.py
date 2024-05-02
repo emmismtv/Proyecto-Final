@@ -15,3 +15,5 @@ def registrar_incidente(filename):
         print("Perfecto, el incidente ha sido registrado.")
 
 registrar_incidente('c:/Users/bumbl/OneDrive/Escritorio/Algoritmos/incidentes.csv')
+
+bjbjbj
